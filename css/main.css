@@ -32,6 +32,7 @@ body {
 
 h1 { 
     margin: 0;
+    font-size: 3.5rem;
 }
 
 h2 { 
@@ -41,6 +42,11 @@ h2 {
 
 main {
     
+}
+
+
+img {
+    width:100%;
 }
 
 
@@ -55,11 +61,16 @@ main {
     body {
         margin-right: 20%;
     }
+    img { 
+        width: 70%;
+        
+    }
+        
 }
 
 
 @media only screen and (min-width: 60em) {
-       body {
+    body {
         margin-right: 40%;
     }
 
