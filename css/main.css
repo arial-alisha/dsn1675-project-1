@@ -32,12 +32,12 @@ body {
 h1 { 
     margin: 0;
     font-size: 3.5rem;
-    line-height: 14px;
+    line-height: 20px;
     padding-left: 2rem;
 }
 
 h2 { 
-    font-size: 1.5; 
+    font-size: 1rem; 
     font-weight: bold;
     padding-left: 2rem;
 }
@@ -46,11 +46,13 @@ p {
     padding-left: 2rem;
 }
 
-
 img {
     width:100%;
 }
 
+footer {
+    padding-bottom: 2rem;
+}
 
 .soc {
     overflow:hidden;
@@ -122,14 +124,11 @@ img {
     content:',';
 }
 
-
-
 /* media querries */  
 @media only screen and (min-width: 25em) {
 
     
 }
-
 
 @media only screen and (min-width: 35em) {
     body {
@@ -146,10 +145,8 @@ img {
         align-content: right;
         padding-left: 10em;
         padding-right: 1em;
-    }
-        
+    }     
 }
-
 
 @media only screen and (min-width: 60em) {
     body {
@@ -159,5 +156,4 @@ img {
         align-content: right;
         padding-left: 14em;
         padding-right: 1em;
-        
 }
