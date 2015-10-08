@@ -1,0 +1,66 @@
+@-moz-viewport { width: device-width; scale: 1; } 
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; } 
+@-webkit-viewport { width: device-width; scale: 1; } 
+@viewport { width: device-width; scale: 1; } 
+
+html {
+    box-sizing:border-box;
+    -moz-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%; 
+    font-family: 'Signika', sans-serif;
+    background-color: grey; 
+    background-image: url(../images/picture.jpg); /* thats going to fine the image and put it into the html element */
+    background-size: ;
+    background-position: right top; 
+}
+
+body {
+    margin: 0; 
+    margin-right: 5%;
+    background-color: white; 
+    min-height: 100vh; 
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.name-i {
+    display: inline-block; 
+    margin-left: .02em; 
+}
+
+h1 { 
+    margin: 0;
+}
+
+h2 { 
+    font-size: 1rem; 
+    font-weight: bold;
+}
+
+main {
+    
+}
+
+
+/* media querries */  
+@media only screen and (min-width: 25em) {
+
+    
+}
+
+
+@media only screen and (min-width: 35em) {
+    body {
+        margin-right: 20%;
+    }
+}
+
+
+@media only screen and (min-width: 60em) {
+       body {
+        margin-right: 40%;
+    }
+
+}
