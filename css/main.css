@@ -28,9 +28,8 @@ body {
     padding-top: 2em;
 }
 
-.name-i {
-    display: inline-block; 
-    margin-left: .02em; 
+.name-r {
+    letter-spacing: .05em;
 }
 
 h1 { 
