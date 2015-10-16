@@ -11,9 +11,10 @@ html {
     -webkit-text-size-adjust: 100%; 
     font-family: 'Signika', sans-serif;
     background-color: grey; 
-    background-image: url(../images/picture.jpg); /* thats going to fine the image and put it into the html element */
-    background-size: cover;
-    background-position: right top; 
+    background-image: url(../assets/drawing.jpg); /* thats going to fine the image and put it into the html element */
+    background-size: 20%;
+    background-position: right center; 
+    background-repeat: ;
 }
 
 *, *::before, *::after {
@@ -25,11 +26,16 @@ body {
     margin-right: 5%;
     background-color: white; 
     min-height: 100vh; 
-    padding-top: 2em;
 }
 
 .name-r {
     letter-spacing: .05em;
+}
+
+header {
+    background-color: #ebe5f1;
+    height: 6em;
+    padding-top: 2em;
 }
 
 h1 { 
@@ -37,17 +43,21 @@ h1 {
     font-size: 3rem;
     line-height: 20px;
     padding-left: 2rem;
+    color: #31274a;
 }
 
 h2 { 
-    font-size: 1rem; 
+    font-size: 1.2rem; 
     font-weight: bold;
     padding-left: 2rem;
+    color: #6a1d15;
 }
+
 
 p {
     padding-left: 2rem;
     padding-right: .5em;
+
 }
 
 img {
@@ -55,78 +65,43 @@ img {
 }
 
 footer {
-    padding-bottom: 2rem;
+    padding-bottom: 1em;
+    padding-top: 1em; 
+    background-color: #ebe5f1;
 }
 
+.social {
+    font-size: 1.2rem;
+    color: #6a1d15;
+    
+}
 .soc {
-    overflow:hidden;
-    list-style:none;
+    list-style-type: none;
 }
 
-.soc li {
-    display:inline-block;
-    *display:inline;
-    zoom:1;
+.soc li { 
+    height: 3em; 
+    display: inline-block;
+     margin-right: 5%;
+    
+}
+.soc-instagram, .soc-facebook, .soc-google {
+    display: block;
+    background-image: url(../assets/instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    width: 4em; 
+    height: 4em;
+   
 }
 
-.soc li a {
-    font-family:si!important;
-    font-style:normal;
-    font-weight:400;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    -ms-box-sizing:border-box;
-    -o-box-sizing:border-box;
-    box-sizing:border-box;
-    overflow:hidden;
-    text-decoration:none;
-    text-align:center;
-    display:block;
-    position: relative;
-    z-index: 1;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    font-size: 44px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    margin-right: 10px;
-    color: #ffffff;
-    background-color: none;
+.soc-facebook { 
+    background-image: url(../assets/facebook.png);
 }
 
-.soc-icon-last{
-    margin:0 !important;
-}
-
-.soc-twitter {
-    background-color: #4da7de;
-}
-.soc-twitter:before {
-    content:'a';
-}
-.soc-facebook {
-    background-color: #3e5b98;
-}
-.soc-facebook:before {
-    content:'b';
-}
-.soc-google {
-    background-color: #d93e2d;
-}
-.soc-google:before {
-    content:'c';
-}
-
-.soc-rss {
-    background-color: #f26109;
-}
-.soc-rss:before {
-    content:',';
-}
+.soc-google { 
+    background-image: url(../assets/googleplus.png);
+} 
 
 /* media querries */  
 @media only screen and (min-width: 25em) {
@@ -153,6 +128,11 @@ footer {
 }
 
 @media only screen and (min-width: 60em) {
+    html { 
+        background-size: 40%;
+        
+    }
+    
     body {
         margin-right: 40%;
     }
@@ -160,4 +140,5 @@ footer {
         align-content: right;
         padding-left: 14em;
         padding-right: 1em;
+    }
 }
